@@ -16,3 +16,6 @@ PCA performed on scaled data and the first two PC's were plotted with colors fro
 Although PCA was computed once, it can be used to visualize both K-means and hierarchical clusters by coloring points according to cluster assignments.
 ### Cluster Comparison
 Cross-tabulation shows partial alignment between K-means and hierarchical clusters.Adjusted Rand Index (ARI) = 0.409, indicating moderate agreement between the two clustering methods.
+### Key Insights
+Both methods identify meaningful customer segments.Major clusters in both methods correspond to customers with high Milk & Grocery or high Frozen & Delicassen purchases.
+K-means produces slightly more balanced clusters, hierarchical clustering produces some very small or extreme groups.Moderate ARI suggests complementary perspectives; differences highlight algorithmic sensitivity to cluster shapes.
